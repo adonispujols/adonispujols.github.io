@@ -198,11 +198,11 @@ figure.effect-oscar:hover img {
 /* Styles
 ---------------------------------*/
 body {
-    background: #fff;
+    background: #e6e6e6;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    color: #888888;
+    font-weight: bold;
+    color: #000000;
     margin: 0;
 }
 
@@ -216,6 +216,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.detail {
+    color: #FFFFFF;
+}
+
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -225,7 +229,7 @@ h3 {
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 24px;
     color: #888888;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -939,6 +943,7 @@ background-repeat: no-repeat;
 background-position: right;
 background-size: auto 100%;
 background-position-y: 70px;
+
 }
 #about-us, h2, h3, h6, p {
 color: #0A1525;
@@ -971,7 +976,7 @@ color: #0A1525;
 .about-us p{
 	/*font-size: 0.9375em;*/
 	line-height: 1.625em;
-	padding: 15px 0;
+	/*padding: 15px 0;*/
 }
 .about-us .about-us-list{
 	list-style: none;
@@ -995,6 +1000,7 @@ color: #0A1525;
     position: relative;
     list-style-type: none;
     padding: 5px 0 5px 30px;
+    font-size: 20px;
 }
 
 .about-us .points:before{
@@ -1165,8 +1171,8 @@ background-color: #11D25D;
 transition: all .3s;
 }
 #aboutUs {
-    padding: 60px 0;
-    background: #fff;
+    /*padding: 60px 0;*/
+    background: #e6e6e6;
 }
 
 /* Contact
@@ -1260,7 +1266,7 @@ transition: all .3s;
 }
 
 .contact_info  h3 {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 600;
     margin: 0 0 30px;
     color: #fff;
@@ -1269,7 +1275,7 @@ transition: all .3s;
 .contact_info p {
     line-height: 28px;
     display: block;
-    font-size: 16px;
+    font-size: 25px;
     color: #ffffff;
     margin: 0 0 30px;
 }
@@ -1578,8 +1584,9 @@ transition: all .3s;
     text-align: center;
 }
 #techSkills{
-padding:80px 0 60px;
+/*padding:80px 0 60px;*/
 }
+
  .progress {
   height: 20px;
   margin-bottom: 20px;
